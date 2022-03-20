@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration:none;
+    color: #1448ae;
+}
+ul,li{
+    list-style: none;
+}
+header{
+    height: 1.28rem /* 64px -> 1.28rem */;
+    width: 100%;
+    text-align: center;
+    /* line-height: 1.28rem; */
+    /* background-color: gold; */
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size: .4rem /* 20px -> .4rem */;
+}
+.head-img{
+    width: .32rem /* 16px -> .32rem */;
+    height: .4rem /* 20px -> .4rem */;
+}
+header div{
+    font-weight:600;
+}
+header div:nth-child(1){
+    /* color: #1448ae; */
+    margin-left: 4%;
+}
+header div:nth-child(2){
+    /* color: #1448ae; */
+    margin-left:-13%;
+}
+article{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.box{
+    width: 100%;
+    height: 5rem /* 400px -> 8rem */;
+    /* background-color: gold; */
+    padding-top: 1rem;
+}
+
+.inp1{
+    height: .8rem;
+    font-size: .32rem /* 16px -> .32rem */;
+    width: 60%;
+    text-indent: 1em;
+    border: none;
+    outline: none;
+}
+.input1 i img{
+    width: .32rem /* 16px -> .32rem */;
+}
+.input0{
+    border-bottom: .02rem /* 1px -> .02rem */ solid #CCCCCC;
+    height: 1rem;
+    width: 100%;
+     line-height: 1rem;
+     color: #666666;
+     font-size: .32rem /* 16px -> .32rem */;
+}
+.input0 div{
+display: inline-block;
+margin-left: 6%;
+}
+.input1,.input2,.input3{
+    border-bottom: .02rem /* 1px -> .02rem */ solid #CCCCCC;
+    height: 1rem;
+    width: 100%;
+    line-height: 1rem;
+    color: #666666;
+    font-size: .32rem /* 16px -> .32rem */;
+}
+.inp1{
+    margin-left: 10%;
+}
+.inp2{
+    margin-left: 10%;
+    height: .8rem;
+    font-size: .32rem /* 16px -> .32rem */;
+    text-indent: 1em;
+    border: none;
+    outline: none;
+    width: 40%;
+}
+.hq{
+    background-color: #CCCCCC;
+    color:white;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: .32rem /* 16px -> .32rem */;
+    width:30%;
+    display: inline-block;
+    text-align: center;
+}
+.inp3{
+    margin-left: 7%;
+    height: .8rem;
+    font-size: .32rem /* 16px -> .32rem */;
+    text-indent: .5em;
+    border: none;
+    outline: none;
+    width: 58%;
+}
+.input3 i img{
+    width: .36rem /* 18px -> .36rem */;
+}
+footer{
+    width: 90%;
+    margin: 0 auto;
+}
+footer button{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    background-color: #F7C612;
+    color: white;
+    border: none;
+    font-size: .36rem /* 18px -> .36rem */;
+}

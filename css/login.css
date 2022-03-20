@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration:none;
+    color: #1448ae;
+}
+ul,li{
+    list-style: none;
+}
+header{
+    height: 1.28rem /* 64px -> 1.28rem */;
+    width: 100%;
+    /* line-height: 1.28rem; */
+    /* background-color: gold; */
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size: .4rem /* 20px -> .4rem */;
+}
+.head-img{
+    width: .32rem /* 16px -> .32rem */;
+    height: .4rem /* 20px -> .4rem */;
+}
+header div{
+    font-weight:600;
+}
+header div:nth-child(3){
+    color: #1448ae;
+    margin-right: 4%;
+}
+header div:nth-child(1){
+    /* color: #1448ae; */
+    margin-left: 4%;
+}
+article{
+    width: 100%;
+    height: auto;
+}
+.box{
+    width: 90%;
+    margin: 0 auto;
+    height: 7rem /* 400px -> 8rem */;
+    /* background-color: gold; */
+    padding-top: 1rem;
+}
+.input1,.input2{
+    border-bottom: .02rem /* 1px -> .02rem */ solid #CCCCCC;
+    height: 1rem;
+    width: 100%;
+    /* line-height: 1rem; */
+    color: #666666;
+    font-size: .32rem /* 16px -> .32rem */;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.inp1,.inp2{
+    height: .8rem;
+    font-size: .32rem /* 16px -> .32rem */;
+    width: 70%;
+    text-indent: 1em;
+    border: none;
+    outline: none;
+}
+.input1 i img{
+    width: .32rem /* 16px -> .32rem */;
+}
+.input2 i img{
+    width: .36rem /* 18px -> .36rem */;
+}
+.input2 span{
+    margin-right: .32rem /* 16px -> .32rem */;
+}
+.box button{
+    width: 100%;
+    height: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    background-color:#F7C612 ;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: .36rem /* 18px -> .36rem */;
+}
+.prob{
+    width: 100%;
+    height: .4rem /* 20px -> .4rem */;
+    margin-top: .2rem /* 10px -> .2rem */;
+    /* background-color: #1448ae; */
+    line-height: .4rem /* 20px -> .4rem */;
+    overflow: hidden;
+    color: #989898;
+}
+.prob div:nth-child(1){
+float: left;
+}
+.prob div:nth-child(2){
+    float: right;
+}
+footer{
+    width: 100%;
+
+}
+footer>ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer ul li img{
+    width: 1rem;
+}
