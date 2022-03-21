@@ -174,8 +174,11 @@ footer div{
 .fot-d3 i{
     position: absolute;
     top: 0rem /* -5px -> -0.1rem */;
-    right: -.6rem; 
+    right: -.5rem; 
 }
 .fot-d2{
     margin-left: 10%;
+}
+.fot-d3{
+    margin-right: 1%;
 }
