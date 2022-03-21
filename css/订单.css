@@ -142,6 +142,7 @@ left: -0.3rem /* -15px -> -0.3rem */;
 .jx ul li:nth-child(2){
    width: 2.5rem;
    height: .5rem;
+   line-height: .5rem;
     border: .02rem /* 1px -> .02rem */ solid #DCDCDC;
     font-size: .28rem /* 14px -> .28rem */;
     color: #666666;
