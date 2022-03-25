@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日期选择</title>
+    <script src="../js/zepto.js"></script>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/rem.js"></script>
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/calendar-pro.css">
+    <link rel="stylesheet" href="../css/日期选择.css">
+</head>
+<body>
+    <div class="header">
+        <div class="iconfont icon-zuojiantou"></div>
+        <div class="heading ">选择日期和人数</div>
+        <div class="text">起价说明</div>
+    </div>
+    <div class="calendar-box demo-box"></div>
+    <div class="content">
+        <div class="list">
+            <div class="content-list">
+                <div class="content-list-l">
+                    <span>成人</span><span class="price">￥3159/人</span>
+                    <span class="money">3159</span>
+                </div>
+                <div class="content-list-l right">
+                    <div class="jian">-</div>
+                    <div class="num">1</div>
+                    <div class="jia">+</div>
+                </div>
+            </div>
+        </div>
+        <div class="list">
+            <div class="content-list">
+                <div class="content-list-l">
+                    <span>儿童</span>
+                </div>
+                <div class="content-list-l right">
+                    <div class="jian">-</div>
+                    <div class="num">1</div>
+                    <div class="jia">+</div>
+                </div>
+            </div>
+        </div>
+        <div class="list">
+            <div class="content-list-three">
+                <input type="checkbox" />
+                <span>携带幼儿</span>
+                <span style="color: #999;">0~2岁</span>
+            </div>
+        </div>
+        <div class="list" id="content-list">
+            <p><span class="iconfont icon-tishi"></span>最少1人起订，年龄2—12周岁，不占床，不含早，只含当地的正餐半餐、车位以及导服，其他需要自理。成人+儿童最多支持9人，<span class="orgin">*以上价格均为期价</span></p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="left">
+            总额:¥<span class="total">6318</span>  明细>
+        </div>
+        <div class="right">
+            下一步 选择资源
+        </div>
+    </div>
+</body>
+<script src="../js/日期选择.js"></script>
+<script src="../js/calendar-pro.js"></script>
+<script>
+    $('.calendar-box').calendar({
+    ele : '.demo-box', //依附
+    title : '选择预约时间',
+//			beginDate : '2017-10-07',
+//			endDate : '2017-12-04',
+    data : [
+        {date:'2017-10-15',data:'3159'},
+        {date:'2017-10-16',data:'3069'},
+        {date:'2017-10-17',data:'3099'},
+        {date:'2017-10-18',data:'3099'},
+        {date:'2017-10-19',data:'3100'},
+        {date:'2017-10-20',data:'3159'},
+        {date:'2017-10-21',data:'3259'},
+    ]
+});
+function getActive(){
+    var data = $('.calendar-box').calendarGetActive();
+    console.log(data);
+    alert(data.date+"--¥"+data.money);
+}
+</script>
+</html>
