@@ -243,3 +243,11 @@ ul,li {
     text-align: center;
     color: #999999;
 }
+.gr{
+    color: #1244AA;
+    font-size: 0.2rem;
+}
+a{
+    color: #999999;
+    text-decoration: none;
+}
