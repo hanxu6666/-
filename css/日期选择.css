@@ -114,12 +114,15 @@ h3 {
     justify-content: space-between;
 }
 
-.content .content-list .price {
+.content .content-list .p {
     margin-left: 0.24rem;
     font-size: 0.28rem;
     color: #f1a30f;
 }
 .content .money{
+    display: none;
+}
+.content .price{
     display: none;
 }
 .content .content-list-l.right {
@@ -137,7 +140,17 @@ h3 {
 .content .content-list-l.right div {
     width: 0.52rem;
 }
-
+.content-list-l button{
+    width: 0.52rem;
+    border: none;
+    background-color: #fff;
+}
+.content-list-l input{
+    width: 0.79rem !important;
+    background-color: #e5e5e5;
+    border: none;
+    text-align: center;
+}
 .content .num {
     width: 0.79rem !important;
     background-color: #e5e5e5;

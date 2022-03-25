@@ -152,6 +152,17 @@ body{
 .coupon .quantity div{
     width: 0.52rem;
 }
+.coupon .quantity button{
+    width: 0.52rem;
+    border: none;
+    background-color: #fff;
+}
+.coupon .quantity input{
+    width: 0.79rem !important;
+    background-color: #e5e5e5;
+    border: none;
+    text-align: center;
+}
 .coupon .quantity .num{
     width: 0.79rem !important;
     background-color: #f9da9f;
@@ -161,6 +172,17 @@ body{
 }
 .coupon1 .left{
     color: #c43f8c;
+}
+.coupon1 .quantity button{
+    width: 0.52rem;
+    border: none;
+    background-color: #fff;
+}
+.coupon1 .quantity input{
+    width: 0.79rem !important;
+    background-color: #e5e5e5;
+    border: none;
+    text-align: center;
 }
 .coupon1 .quantity{
     border: 0.02rem solid #d4539d;
@@ -225,12 +247,16 @@ body{
     background-color: #fff;
     border: 0.01rem solid #cccccc;
 }
-.foot .quantity div{
+.foot .quantity button{
     width: 0.52rem;
+    border: none;
+    background-color: #fff;
 }
-.foot .quantity .num{
+.foot .quantity input{
     width: 0.79rem !important;
     background-color: #e5e5e5;
+    border: none;
+    text-align: center;
 }
 .foot .list .right{
     color: #cfd1d4;

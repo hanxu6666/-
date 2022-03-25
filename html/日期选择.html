@@ -24,13 +24,14 @@
         <div class="list">
             <div class="content-list">
                 <div class="content-list-l">
-                    <span>成人</span><span class="price">￥3159/人</span>
+                    <span>成人</span><span class="p">￥3159/人</span>
+                    <span class="price">3159</span>
                     <span class="money">3159</span>
                 </div>
                 <div class="content-list-l right">
-                    <div class="jian">-</div>
-                    <div class="num">1</div>
-                    <div class="jia">+</div>
+                    <button onclick="minus(0)">-</button>
+					<input type="text" value="1" />
+					<button onclick="add(0)">+</button>
                 </div>
             </div>
         </div>
@@ -38,11 +39,13 @@
             <div class="content-list">
                 <div class="content-list-l">
                     <span>儿童</span>
+                    <span class="price">0</span>
+                    <span class="money">0</span>
                 </div>
                 <div class="content-list-l right">
-                    <div class="jian">-</div>
-                    <div class="num">1</div>
-                    <div class="jia">+</div>
+                    <button onclick="minus(1)">-</button>
+					<input type="text" value="1" />
+					<button onclick="add(1)">+</button>
                 </div>
             </div>
         </div>

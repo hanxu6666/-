@@ -161,9 +161,9 @@
             <p>2成人起订</p>
             <p>每单立减800元!</p>
             <div class="quantity">
-                <div class="jian">-</div>
-                <div class="num">1</div>
-                <div class="jia">+</div>
+                <button class="jian" onclick="minus(0)">-</button>
+				<input class="num" type="text" value="1" />
+				<button class="jia" onclick="add(0)">+</button>
             </div>
         </div>
     </div>
@@ -177,9 +177,9 @@
             <p>+0元/人 免费升级</p>
             <p>价值168元团餐!</p>
             <div class="quantity">
-                <div class="jian">-</div>
-                <div class="num">1</div>
-                <div class="jia">+</div>
+                <button class="jian" onclick="minus(1)">-</button>
+				<input class="num" type="text" value="1" />
+				<button class="jia" onclick="add(1)">+</button>
             </div>
         </div>
     </div>
@@ -192,9 +192,9 @@
             <div class="left">
                 <p>单房差</p>
                 <div class="quantity">
-                    <div class="jian">-</div>
-                    <div class="num">1</div>
-                    <div class="jia">+</div>
+                    <button class="jian" onclick="minus(2)">-</button>
+					<input class="num" type="text" value="1" />
+					<button class="jia" onclick="add(2)">+</button>
                 </div>
             </div>
             <div class="right">
@@ -205,9 +205,9 @@
             <div class="left">
                 <p>超值换购水上乐园成人门票</p>
                 <div class="quantity">
-                    <div class="jian">-</div>
-                    <div class="num">1</div>
-                    <div class="jia">+</div>
+                    <button class="jian" onclick="minus(3)">-</button>
+					<input class="num" type="text" value="1" />
+					<button class="jia" onclick="add(3)">+</button>
                 </div>
             </div>
             <div class="right">
@@ -218,9 +218,9 @@
             <div class="left">
                 <p>超值换购天涯海角门票</p>
                 <div class="quantity">
-                    <div class="jian">-</div>
-                    <div class="num">1</div>
-                    <div class="jia">+</div>
+                    <button class="jian" onclick="minus(4)">-</button>
+					<input class="num" type="text" value="1" />
+					<button class="jia" onclick="add(4)">+</button>
                 </div>
             </div>
             <div class="right">
@@ -262,5 +262,5 @@
         下一步，填写订单
     </div>
 </body>
-
+<script src="../js/日期选择.js"></script>
 </html>
