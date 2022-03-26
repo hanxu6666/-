@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header img{
+    width: 100vw;
+    height: 4.72rem;
+}
+.text{
+    width: 100vw;
+    height: 2.4rem;
+    display: flex;
+    justify-content: center;
+
+}
+.tet{
+    width: 90%;
+    height: 100%;
+    
+}
+.p1{
+    font-size: 0.32rem;
+}
+.tet2 img {
+    width: 1.66rem;
+    height: 0.4rem;
+    margin-top: 0.2rem;
+}
+.tet3{
+width:100% ;
+height:0.7rem;
+display: flex;
+}
+.t1{
+    width: 35%;
+    height: 100%;
+}
+.t2{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.s1{
+    font-size: 0.45rem;
+    color: #FF4401; 
+}
+.s2{
+    font-size: 0.24rem;
+    color: #A9A9A9;
+    font-weight: 800;
+}
+.s3{
+    font-size: 0.24rem;
+    color: #FF4401;
+}
+.t3{
+    height:0.4rem;
+    font-size: 0.3rem;
+    color: #999999;
+    background-color: #EEEEEE;
+    border: 1px solid #999999;
+}
+.log{
+    width: 100vw;
+    height: 2rem;
+    background-color: #FDEACC;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #999999;
+}
+.log1{
+    width: 90%;
+    height: 100%;
+    
+    display: flex;
+}
+.log2{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.log3{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+
+    
+}
+.log4{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    line-height: 2rem;
+    font-style: 0.4rem;
+    
+}
+.log2-1{
+width: 0.5rem;
+height: 0.3rem;
+border: 1px solid #FF4401;
+border-radius:5%;
+font-size: 0.24rem;
+text-align: center;
+line-height: 0.3rem;
+color: #FF4401;
+}
+.log2-2{
+    width: 0.54rem;
+    height: 0.3rem;
+    border-radius:5%;
+    background-color: #ff4401;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.3rem;
+    color: #FDEACC;
+    }
+.log3-1{
+    width: 100%;
+    height: 0.57rem;
+
+}
+.log3-1 ul{
+  margin-left: 0.3rem;  
+  font-size: 0.24rem;
+  color: #999999;
+}
+.rog{
+    width: 100%;
+    height: 0.2rem;
+    background-color:#F4F4F4;
+    border-bottom:1px solid #999999 ;
+    border-top: 1px solid #999999;
+}
+.rpg{
+    width: 100%;
+    height: 4.8rem;
+    display:flex;
+    justify-content: center
+}
+.rpg1{
+    width: 90%;
+    height: 4.8rem;    
+}
+.rpg2{
+    width: 100%;
+    height: 2rem;
+
+}
+.rpg3{
+    width: 100%;
+    height: 0.46rem;
+    margin-top: 0.3rem;
+    display: flex;}
+.rpg4{
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid #999999;
+    line-height: 0.46rem;
+
+}
+.rpg4 span{
+    font-size: 0.3rem;
+}
+.s4{
+    color: #FF4401;
+}
+.rpg5{
+    width: 25%;
+    height: 100%;
+    line-height: 0.46rem;
+    margin-left: 0.3rem;
+}
+.rpg5 span{
+    font-size: 0.26rem;
+}
+.rot{
+    width: 100%;
+    height: 1.2rem;
+    margin-top: 0.2rem;
+
+}
+.rot1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+   
+}
+.rot2{
+    height: 0.5rem;
+    background-color: #F5F5F5;
+    font-size: 0.26rem;
+    margin-right: 0.24rem;
+    border-radius: 5%;
+    line-height: 0.5rem;
+    color: #666666;
+}
+.qwq{
+    width: 100%;
+    height: 1.74rem;
+}
+.qwq1{
+    width: 100%;
+    height: 0.6rem;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between; 
+}
+.qwq2{
+    width: 100%;
+    height: 1.1rem;
+}
+.qwq3{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qwq3-1{
+    width:2.8rem;
+    height: 0.6rem;
+    color: #56C6E4;
+    border-radius:5%;
+    border: 1px solid #56C6E4;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.fot{
+    width: 100%;
+    height: 1.07rem;
+    display: flex;
+
+}
+.fot1{
+    width: 33.33333333%;
+    height: 1rem;
+ 
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.3rem;
+
+}
+.cb{
+    color: #56C6E4;
+    border-bottom: 0.07rem solid #F7C612;
+}
+.foot{
+    width: 100%;
+    height: 17rem;
+    display:none;
+}
+.foot img{
+    width: 100%;
+    height: 17rem;
+    
+}
+.show{
+    display: block;
+}
+.fs{
+    display: none;
+}
+.ufo{
+    width: 100%;
+    height: 14.9rem;
+    margin-top: 0.3rem;
+    display: flex;
+}
+.ufo1{
+    width: 15%;
+    height: 100%;
+    border-right:1px dashed #2F90BB ;
+}
+.ufo2{
+    width: 85%;
+    height: 100%;
+   
+}
+.ufo1-1{
+    width: 1rem;
+    height: 0.37rem;
+    background-color: #2F90BB;
+    font-size: 0.24rem;
+    text-align: center;
+    color: #fff;
+    
+}
+.ufo2-1{
+    width: 100%;
+    height: 1.5rem;
+    position: relative;
+}
+.ufo2-1 p{
+ margin-left: 0.3rem;
+}
+.mt{
+    margin-top: 0.2rem;
+}
+.o{
+    width: 0.12rem;
+    height: 0.12rem;
+    background-color: #2F90BB;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -0.07rem;
+}
+.o1{
+    margin-top: 0.7rem;
+}
+.o2{
+    margin-top: 1.3rem;
+}
+.pq span{
+    border: 1px solid #ccc;
+   color: #ccc;}
+.jqk{
+    width: 100%;
+    height: 4.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    display: flex;
+    justify-content: center;
+}
+.jqk1{
+    width: 5rem;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.jj{
+    width: 2.3rem;
+    height: 2rem;
+
+}
+.jj img{
+    width: 2.3rem;
+    height: 2rem;
+    
+}
+.qq{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+}
+.k{
+    width:10%;
+    height: 100%;
+}
+.k1{
+    width: 80%;
+    height: 100%;
+    font-size: 0.29rem;
+}
+.kk{
+    width: 0.44rem;
+    height: 0.44rem;
+    margin-left: 0.2rem;
+}
+.kk img{
+    width: 0.44rem;
+    height: 0.44rem;
+
+}
+.l{
+    color: #2F90BB;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.moom{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+}
+.m1{
+    width: 4rem;
+    height: 1rem;
+}
+.m2{
+    width: 3.5rem;
+    height: 1rem;
+    background-color: #F1A30F;
+    color: #fff;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.3rem;
+}
+.m1 img{
+    width: 4rem;
+    height: 1rem;
+}
