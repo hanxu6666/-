@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/rem.js"></script>
+    <script src="../js/zepto.js"></script>
+ 
+</head>
+<body>
+    <header>
+        <div><img src="../img/images/01-登录界面_03.png" alt="" class="head-img"></div>
+        <div>登录</div>
+        <div class="zc"><a href="./sin.html">注册</a></div>
+    </header>
+    <article>
+        <div class="box">
+            <div class="input1">
+                <span>登录名</span>
+                <input type="text" placeholder="手机号码/用户名/邮箱" class="inp1">
+                <i><img src="../img/images/01-登录界面_06_03.png" alt=""></i>
+            </div>
+            <div class="input2">
+                <span>密码</span>
+                <input type="password" placeholder="密码" class="inp2">
+                <i><img src="../img/images/01-登录界面_07.png" alt=""></i>
+            </div>
+            <button class="login">登录</button>
+            <div class="prob">
+                <div>登录遇到问题？</div>
+                <div>境外手机登录</div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <ul>
+            <li><img src="../img/images/01-登录界面_09.png" alt=""></li>
+            <li><img src="../img/images/01-登录界面_11.png" alt=""></li>
+            <li><img src="../img/images/01-登录界面_19.png" alt=""></li>
+            <li><img src="../img/images/01-登录界面_15.png" alt=""></li>
+            <li><img src="../img/images/01-登录界面_17.png" alt=""></li>
+        </ul>
+    </footer>
+    <script>
+       
+$('.input1>i').tap(function(){
+$('.inp1').val('')
+})
+var a = true
+$('.input2>i').tap(function(){
+    if(a){
+        $('.inp2').attr('type','text')
+         a = false
+    }else{$('.inp2').attr('type','password')
+  a = true
+}
+})
+
+$('.inp1').blur(function(){
+    ch = /[\u4e00-\u9fa5d]/g
+   if(ch.test($(this).val())){
+alert('请按提示操作')
+$('.inp1').val('')
+   }
+})
+    </script>
+</body>
+</html>
